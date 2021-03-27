@@ -1,5 +1,5 @@
 body{ 
-    background: red;
+    background: grey;
 }
 
 header {
@@ -15,4 +15,12 @@ img {
     height: 300px;
     object-fit: cover;
     object-position: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
