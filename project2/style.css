@@ -1,0 +1,23 @@
+h1{
+text-align: center;
+}
+
+body{
+    background: rgb(56,232,56);
+    background: radial-gradient(circle, rgba(56,232,56,1) 0%, rgba(145,175,135,1) 100%);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+
+} 
+
+section{ 
+    min-height: 200px;
+    background: rgb(27,122,27);
+    background: radial-gradient(circle, rgba(27,122,27,1) 0%, rgba(145,175,135,1) 100%); ;
+}
+
