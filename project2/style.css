@@ -3,6 +3,7 @@ text-align: center;
 }
 
 body{
+    font-family: 'Jura', sans-serif;
     background: rgb(56,232,56);
     background: radial-gradient(circle, rgba(56,232,56,1) 0%, rgba(145,175,135,1) 100%);
 }
@@ -18,6 +19,28 @@ img{
 section{ 
     min-height: 200px;
     background: rgb(27,122,27);
-    background: radial-gradient(circle, rgba(27,122,27,1) 0%, rgba(145,175,135,1) 100%); ;
+    background: radial-gradient(circle, rgba(27,122,27,1) 0%, rgba(145,175,135,1) 100%);
 }
 
+section.pirma-sekcija {
+    min-height: 200px;
+    background: rgb(219, 60, 68);
+    background: radial-gradient(circle, rgb(216, 82, 116) 0%, rgb(133, 26, 26) 100%);
+}
+
+
+section.antra-sekcija {
+    min-height: 200px;
+    background: rgb(161, 190, 32);
+    background: radial-gradient(circle, rgb(194, 214, 8) 0%, rgb(197, 206, 68) 100%);
+}
+
+section.trečia-sekcija {
+    min-height: 200px;
+    background: rgb(76, 197, 39);
+    background: radial-gradient(circle, rgb(24, 78, 19) 0%, rgb(105, 180, 75) 100%);
+}
+
+img.perkelimas-dešinėn{
+    float: right;
+}
