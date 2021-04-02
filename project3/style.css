@@ -1,3 +1,22 @@
 body{
-    background-color: rgb(70, 61, 124);
+    background-color: rgb(163, 161, 161)
+}
+
+img{
+    width: 50px;
+    float: left;
+}
+
+h1{
+    text-align: center; 
+    color: aqua;
+
+}
+
+section{
+    background-color: rgb(201, 214, 80);
+}
+
+header{
+    height: 100px;
 }
