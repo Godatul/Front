@@ -1,22 +1,54 @@
-body{
+body {
     background-color: rgb(163, 161, 161)
 }
 
-img{
+h1 {
+    text-align: center; 
+    color: aqua;
+}
+
+section {
+    min-height: 500px;
+}
+
+header {
+    height: 100px;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+section.pirma-sekcija {
+    background-color: blue;
+}
+
+section.antra-sekcija {
+    background-color: cadetblue;
+}
+
+section.trečia-sekcija {
+    background-color: darkgoldenrod;
+}
+
+img.header-logo {
     width: 50px;
+    max-height: 100px;
     float: left;
 }
 
-h1{
-    text-align: center; 
-    color: aqua;
-
+img.visos-kitos-nuotraukos {
+    width: 500px;
+    height: 300px;
+    float: left;
 }
 
-section{
-    background-color: rgb(201, 214, 80);
-}
-
-header{
-    height: 100px;
+img.antros-sekcijos-nuotrauka {
+    float: right;
 }
