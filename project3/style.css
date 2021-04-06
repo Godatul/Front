@@ -13,6 +13,7 @@ section {
 
 header {
     height: 100px;
+
 }
 
 
@@ -23,18 +24,6 @@ h2 {
 
 p {
     text-align: center;
-}
-
-section.pirma-sekcija {
-    background-color: blue;
-}
-
-section.antra-sekcija {
-    background-color: cadetblue;
-}
-
-section.trečia-sekcija {
-    background-color: darkgoldenrod;
 }
 
 img.header-logo {
@@ -51,4 +40,37 @@ img.visos-kitos-nuotraukos {
 
 img.antros-sekcijos-nuotrauka {
     float: right;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+}
+
+.color1 {
+background-color: cadetblue;
+}
+
+h2.pavadinimo-spalva-1{
+    color: darkgoldenrod;
+}
+
+p.pastraipos-spalva-1 {
+    color: yellow;
+}
+
+h2.pavadinimo-spalva-2 {
+    color: blue;
+}
+
+p.pastraipos-spalva-2 {
+    color: orange;
+}
+
+h2.pavadinimo-spalva-3 {
+    color: yellow;
+}
+
+p.pastraipos-spalva-3 {
+    color: red;
 }
