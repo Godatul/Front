@@ -1,29 +1,31 @@
 body {
-    background-color: rgb(163, 161, 161)
+    background: rgb(223,177,231);
+    background: radial-gradient(circle, rgba(223,177,231,0.685025817555938) 31%, rgba(185,241,222,1) 100%);
 }
 
 h1 {
     text-align: center; 
-    color: aqua;
+    color: red;
 }
 
 section {
     min-height: 500px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.44021358543417366) 0%, rgba(107,107,107,0.49343487394957986) 100%, rgba(0,212,255,1) 100%);
 }
 
 header {
     height: 100px;
-
 }
-
-
 
 h2 {
     text-align: center;
+    color: rgba(214, 214, 214, 0.493);
 }
 
 p {
     text-align: center;
+    color: white;
 }
 
 img.header-logo {
@@ -48,29 +50,5 @@ footer {
 }
 
 .color1 {
-background-color: cadetblue;
-}
-
-h2.pavadinimo-spalva-1{
-    color: darkgoldenrod;
-}
-
-p.pastraipos-spalva-1 {
-    color: yellow;
-}
-
-h2.pavadinimo-spalva-2 {
-    color: blue;
-}
-
-p.pastraipos-spalva-2 {
-    color: orange;
-}
-
-h2.pavadinimo-spalva-3 {
-    color: yellow;
-}
-
-p.pastraipos-spalva-3 {
-    color: red;
+    background-color: cadetblue;
 }
