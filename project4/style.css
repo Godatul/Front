@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+}
+
+section {
+    width: 20%;
+    height: 100px;
+    background-color: red
+}
+
+section.spalva1 {
+    background-color: green;
+}
+
+section.spalva2 {
+    background-color: violet;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
