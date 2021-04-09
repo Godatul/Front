@@ -14,10 +14,58 @@ section.spalva1 {
 
 section.spalva2 {
     background-color: violet;
+    width: 40%;
+}
+
+img.nuotrauka2 {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+}
+
+section.spalva3 {
+    background-color: blueviolet;
+}
+
+section.spalva4 {
+    background-color: chocolate;
+}
+
+section.spalva5 {
+    background-color: cyan;
+}
+
+section.spalva6 {
+    background-color: darkgreen;
+}
+
+section.spalva7 {
+    background-color: darkkhaki;
+    width: 60%;
+}
+
+section.spalva8 {
+    background-color: dimgray;
+    width: 80%;
+}
+
+section.spalva9 {
+    background-color: indianred;
+}
+
+section.spalva10 {
+    background-color: mediumvioletred;
+    width: 100%;
+}
+
+img.nuotrauka7 {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
 }
