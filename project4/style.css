@@ -64,3 +64,16 @@ section.spalva10 {
     width: 100%;
 }
 
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+img.paprasta {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
