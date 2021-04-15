@@ -1,3 +1,19 @@
 body {
     background-color: bisque;
 }
+
+img.header-logo {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+header {
+    background: rgb(238,190,174);
+    background: radial-gradient(circle, rgba(238,190,174,1) 0%, rgba(152,148,233,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
