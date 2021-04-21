@@ -48,6 +48,17 @@ main {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+    background: rgb(232,238,174);
+    background: radial-gradient(circle, rgba(232,238,174,1) 6%, rgba(190,133,95,1) 100%);
+}
+
+body {
+    font-family: 'Jura', sans-serif;
     background: rgb(232,238,174);
     background: radial-gradient(circle, rgba(232,238,174,1) 0%, rgba(190,95,150,1) 100%);
 }
