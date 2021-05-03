@@ -51,3 +51,10 @@ main {
 section {
     height: calc(100vh - 50px);
 }
+
+img.section1-img {
+    width: 100%;
+    vertical-align: top;
+    height: calc(100% / 7 );
+    object-fit: cover;
+}
