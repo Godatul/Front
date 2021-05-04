@@ -58,3 +58,17 @@ img.section1-img {
     height: calc(100% / 7 );
     object-fit: cover;
 }
+
+img.section2-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+ul {
+  list-style: none;    
+}
+
+li.li1 {
+    color: blueviolet;
+}
