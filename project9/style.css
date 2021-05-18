@@ -1,0 +1,42 @@
+section {
+    width: 150px;
+    border-radius: 3px;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(204, 60, 91);
+    
+}
+
+img.section1-img {
+    width: 30%;
+}
+
+h2.section1-h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+p.section1-p {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 0.6em;
+
+}
+
+input.section1-input {
+    background: black;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 0.55em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
