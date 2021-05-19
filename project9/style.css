@@ -19,6 +19,8 @@ h2.section1-h2 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
+    color: white;
+    margin: 0.70em 0 0 0;
 }
 
 p.section1-p {
@@ -26,17 +28,19 @@ p.section1-p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 0.6em;
-
+    color: white;
+    margin: 0.70em 0 0 0;
 }
 
 input.section1-input {
-    background: black;
+    background: white;
     width: 100%;
-    color: white;
+    color: rgb(221, 103, 139);
     border-radius: 10px;
     border-style: none;
     font-size: 0.55em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    margin: 0.70em 0 0 0;
 }
 
