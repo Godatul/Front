@@ -1,16 +1,22 @@
+body {
+    background: grey;
+}
+
 section {
-    background: blueviolet;
     width: 200px;
     min-height: 450px;
     border-radius: 3%;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    background: white;
 }
 
 img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    vertical-align: top;
 }
 
 div.images {
@@ -19,16 +25,44 @@ div.images {
 
 div.time {
     width: 100%;
+    color: purple;
+    margin-top: 3em;
+}
+
+p.time-text {
+    margin: 0;
+    font-size: 0.5em;
 }
 
 div.title {
     width: 100%;
 }
 
+h2.title-text {
+    margin: 0;
+}
+
 div.content {
     width: 100%;
+    color: grey;
+}
+
+p.content-text {
+    margin: 0;
+    font-size: 0.7em;
 }
 
 div.info {
     width: 100%;
+    display: flex;
+    background: rgb(177, 44, 66);
+    color: white;
+}
+
+p.info-text-top {
+    margin: 0;
+}
+
+p.info-text-bottom {
+    margin: 0;
 }
