@@ -5,7 +5,6 @@ body {
 section {
     width: 200px;
     height: min-content;
-    border-radius: 3%;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -21,6 +20,7 @@ img {
 
 div.images {
     width: 100%;
+    border-top-left-radius: 50px;
 }
 
 div.time {
@@ -64,7 +64,7 @@ div.info {
     background: rgb(177, 44, 66);
     color: white;
     margin: 1.3em 0 0 0;
-    padding: 0 1em 0 1em;
+    padding: 0.5em 1em 0.5em 1em;
 }
 
 p.info-text-top {
